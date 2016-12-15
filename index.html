@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>puzzle</title>
+    <style>
+      #puzzle{
+        /*border:1px solid #000000;*/
+        background: #EEE;
+        margin: 0 auto;
+        display: block;
+      }
+      #img{
+        margin: 0 auto;
+        display: block;
+      }
+    </style>
+  </head>
+  <body>
+    <p> Czas rozwiązywania: <span id="time"></span> <span id="step"></span></p>
+    <img id="img" src="./image.jpg" width="203" height="203">
+    <canvas id="puzzle" width="406" height="406"></canvas>
+    <!-- <canvas id="puzzle"></canvas> -->
+
+    <div style="margin-top: 20px;">
+
+      <div>
+        <label for="data">9 cyfr puzzle</label>
+        <input id="data" type="text" value="123456780">
+      </div>
+
+      <button id="random">Random</button>
+      <button id="draw">Draw</button>
+      <button id="reverse">Reverse</button>
+      <button id="prev">Prev</button>
+      <button id="next">Next</button>
+    </div>
+
+
+  </body>
+  <script>
+    // jshint esversion: 6
+    // jshint asi: true
+    // You can also require other files to run in this process
+
+    require('./renderer.js')
+
+  </script>
+</html>
