@@ -12,3 +12,5 @@ npm install
 # Run the app
 npm start
 ```
+## Screenshot
+![Screenshot](./Screenshot.png "Screenshot")

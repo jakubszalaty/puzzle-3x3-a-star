@@ -28,7 +28,7 @@ let index = 0
 
 function findSolutionPuzzle(string){
   if(!string)
-    alert('Musisz podać string!')
+    alert('You have to pass string!')
 
   let time = new Date()
   let state = new PuzzleState(string)
