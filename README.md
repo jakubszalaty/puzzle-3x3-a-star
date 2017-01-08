@@ -10,7 +10,7 @@ cd puzzle-3x3-a-star
 # Install dependencies
 npm install
 # Run the app
-npm start
+electron .
 ```
 ## Screenshot
 ![Screenshot](./Screenshot.png "Screenshot")
